@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Dela Gothic One', sans-serif;
+
+}
+body{
+  font-family: Arial, sans-serif;
+  margin: 10;
+  padding: -10 -10px;
+  background-image: url(img/batmanvideo.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+header {
+  background-color: #610202;
+  color: #fcfcfc;
+  padding: 10 40px;
+  text-align: center;
+  width: 100%;
+  position: relative; 
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+}
+.logo-imagem{
+  width: 15 1308px;
+height: 121px;
+flex-shrink: 0;
+}
+.container-logo{
+  display: flex;
+  align-items: center;
+}
+.logo-texto{
+  margin-left: 20 px
+}
+.menu li{
+  text-align: center;
+  display: inline-block;
+  margin: 0 10px;
+  
+
+}
+.menu li a{
+  font-size: 24px;
+  color:#fcfcfc
+  
+}
+
+.menu li a :hover{
+  font-size: 24px;
+  color: black;
+  
+}
+
+
+
+h1 {
+  margin: 0;
+}
+
+main {
+  margin-top: 60px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h2 {
+  color: beige;
+  font-size: 50px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+li {
+  margin-bottom: 15px;
+  color: #fff;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color:rgb(255, 255, 255)
+} 
+.contudo {
+text-align: right;
+}
+.instagram-icon {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  vertical-align: middle;
+}
+main{
+  color: #fff;
+}
+.lista{
+  font-size: 25px;
+}
+.space{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+}
+ol{
+  text-align: center;
+  align-items: center;
+  color: #fff;
+}
